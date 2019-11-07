@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8"/>
+	<style>
+	 .fw { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;}
+	</style>
+	<script>
+	</script>
+    </head>
+    <body>	
+	<h1>Exercise 1</h1>
+	<p>The following html elements are defined: a paragraph with a single letter, A, and three buttons: "Change to A", "Change to B" and "Change to C".</p>
+	<p>Your task is to add inline Javascript code to the three buttons so that each, when clicked, does what its name says it does i.e. the button "Change to A" changes the letter to 'A' etc. Test your solution.</p> 
+	   
+	<p id="letter">A</p>
+	
+	<button type="button">Change to A</button>
+	<button type="button">Change to B</button>
+	<button id="cbutton" type="button">Change to C</button>
+
+	<h1>Exercise 2</h1>
+	<p>A button called "Disable/enable 'Change to C'" is defined.</p>
+	<p>Your task is to define a function that toggles the 'disabled' status of the 'Change to C' button (when 'Change to C' is enabled, as it is at the start, the function disables it and vice versa). Define the function internally in this HTML file (in the <span class="fw">script</span> element inside the file's <span class="fw">head</span> element). Then add an event listener inline for the "Disable/enable 'Change to C'" button so that clicking on it results in a call to the function you just defined. Test your solution.</p>
+	<button type="button">Disable/enable 'Change to C'</button>
+
+	<h1>Exercise 3</h1>
+	<p>An element with id "magic-element" and containing text "Magic text" is defined.</p>
+	<p>Your task is to write a function that changes the content of this element to the image "logo.png", supplied for the exercise. Define the function internally in this HTML file. Then write code that programmatically adds the defined function as an event listener for the 'mouseover' event on the element. Get this code to be called once the entire HTML page is loaded. Test your solution.</p> 
+	<p id="magic-element">Magic text</p>
+    </body>
+</html>
+

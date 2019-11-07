@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" type="image/x-icon" href="https://jelena-vk-itt.github.io/jvk-tudt-notes/logo.png" />
+	<link rel="stylesheet" type="text/css" href="https://jelena-vk-itt.github.io/jvk-tudt-notes/common.css" />
+	
+	<style> #content { background: lightgray; } </style>
+	<title>Javascript Introductory Lab</title>
+    </head>
+
+    <body>
+	<header id="tudheader">
+	    <img src="https://jelena-vk-itt.github.io/jvk-tudt-notes/tudublin_logo.png" alt="TU Dublin Logo">
+	    <div id="tuddepttext">
+		<p>Tallaght Campus</p>
+		<p>Department of Computing</p>
+	    </div>
+	    <img id="rightlogo" src="https://jelena-vk-itt.github.io/jvk-tudt-notes/logo.png" alt="CSWD Logo">
+	</header>
+
+	<nav>
+	   
+	</nav>
+
+	<div id="content">
+	    
+	    <h1>Javascript Demo (Build this File along with the Teacher in Class)</h1>
+
+
+	    <h3>Tools for Javascript Development</h3>
+
+	    <h4>The browser developer tools</h4>
+	    <ul>
+		<li><strong>Javascript console</strong>
+		    <ul>
+			<li>To access the Javascript console in your browser, press key <strong>F12</strong> to open the developer tools, then click the <strong>Console</strong> tab.</li>
+			<li> The Javascript interpreter inside the browser uses the Console to <strong>communicate</strong> (e.g. with information, warning and error messages).</li>
+			<li>You as the developer can use the console to <strong>interactively</strong> run Javascript code.</li>
+			<script>
+				x = 2
+			y = x + 1
+			console.log(y)
+			console.log("The variable is: "+ 3)
+			</script>
+		    </ul>
+		</li>
+		<li><strong>The debugger</strong>
+		    <ul>
+			<li>To access the Javascript debugger in your browser, press key <strong>F12</strong> to open the developer tools, then click the <strong>Debugger</strong> tab.</li>
+			<li>Use the <strong>Sources</strong> panel to navigate through the file system and open files.</li>
+			<li>Once a file is open, you can click on line numbers in the column to the left to set <strong>breakpoints</strong>.</li>
+		    </ul>
+		</li>
+	    </ul>
+
+	    <h4>Linting tools</h4>
+	    <p>A linting tool checks the style, syntax and semantics of code. You will find an online Javascript linter <a href="https://www.jslint.com/">here</a>.</p>
+		<script>
+		var x = 2;
+		var y = x + 1;
+		console.log(y);
+		console.log("The variable is: "+ 3);
+		</script>							   
+		<h3>Data types</h3>
+		<script>
+		console.log('Single quoted string');
+		console.log("Double quoted string");
+		var b = true;
+		console.log(b);
+		</script>
+
+	    <h3>Operators</h3>
+
+	    <h3>Functions</h3>
+
+	    <h3>Events</h3>
+		<button id="ourButton" onclick="alert('Hello from button')";>
+			Button
+		</button>
+	    <h3>Relevant Javascript References on MDN</h3>
+		<script>
+		let button = document.getElementById("ourButton");
+		console.log("Button inner HTML is: " + button.innerHTML)
+		</script>
+	    <ul>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Data types</a></li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators">Operators</a></li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">Document Object Model (DOM)</a></li>
+
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/Events#Standard_events">Events</a></li> 
+	    </ul>
+	</div>
+    </body>
+</html>
